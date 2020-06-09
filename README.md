@@ -29,14 +29,14 @@ Returns an integer from `minimum` to `maximum`.
 
 #### minimum
 
-Type: `number` 
+Type: `number`  
 Default: `0`
 
 Minimum integer to return.
 
 #### maximum
 
-Type: `number` 
+Type: `number`  
 Default: `1`
 
 Maximum integer to return.
