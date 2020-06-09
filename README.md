@@ -10,7 +10,10 @@
 ```ts
 import { randomInt } from "https://raw.githubusercontent.com/yg/random-int/master/mod.ts";
 
-const result = randomInt(10, 1000);
+randomInt(10);
+//=> 6
+
+randomInt(10, 1000);
 //=> 58
 ```
 
