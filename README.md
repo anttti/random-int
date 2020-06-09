@@ -3,55 +3,44 @@
 [![CI](https://github.com/yg/random-int/workflows/CI/badge.svg)](https://github.com/yg/random-int/actions)
 [![GitHub tag](https://img.shields.io/github/v/tag/yg/random-int)](https://github.com/yg/random-int/releases)
 
-> My awesome module
+> Generate a random integer in deno
 
 ## Usage
 
 ```ts
-import { functionCall } from "https://raw.githubusercontent.com/yg/random-int/master/mod.ts";
+import { randomInt } from "https://raw.githubusercontent.com/yg/random-int/master/mod.ts";
 
-const result = functionCall();
+const result = randomInt(10, 1000);
+//=> 58
 ```
-
-## <CLI> Usage
-
-### Run without installing
-
-```sh
-deno run --allow-read https://raw.githubusercontent.com/yg/random-int/master/cli.ts <arguments>
-```
-
-### Install it globally
-
-```sh
-deno install --allow-read -n random-int https://raw.githubusercontent.com/yg/random-int/master/cli.ts
-```
-
-### Run it locally
-
-```sh
-random-int <arguments>
-```
-
-## Permissions
-
-- `--allow-read`
 
 ## API
 
-### functionCall(input, options?)
+### randomInt([maximum])
 
-#### input
+Returns an integer from `0` to `maximum`.
 
-Type: `string`
+### randomInt(minimum, maximum)
 
-Lorem ipsum.
+Returns an integer from `minimum` to `maximum`.
 
-#### options
+#### minimum
 
-Type: `object`
+Type: `number` 
+Default: `0`
 
-Lorem ipsum.
+Minimum integer to return.
+
+#### maximum
+
+Type: `number` 
+Default: `1`
+
+Maximum integer to return.
+
+## Related Work
+
+- [sindresorhus/random-int](https://github.com/sindresorhus/random-int) - Generate a random integer
 
 ## License
 
