@@ -5,6 +5,8 @@
 
 > Generate a random integer in deno
 
+This module is ported from [**sindresorhus/random-int**](https://github.com/sindresorhus/random-int)
+
 ## Usage
 
 ```ts
@@ -40,10 +42,6 @@ Type: `number`
 Default: `1`
 
 Maximum integer to return.
-
-## Related Work
-
-- [sindresorhus/random-int](https://github.com/sindresorhus/random-int) - Generate a random integer
 
 ## License
 
