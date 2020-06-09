@@ -10,7 +10,7 @@ This module is ported from [**sindresorhus/random-int**](https://github.com/sind
 ## Usage
 
 ```ts
-import { randomInt } from "https://raw.githubusercontent.com/yg/random-int/master/mod.ts";
+import { randomInt } from "https://deno.land/x/random_int/mod.ts";
 
 randomInt(10);
 //=> 6
